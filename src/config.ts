@@ -76,6 +76,8 @@ async function getDownloadUrl(releaseEndpoint: string, target: String, requested
         `${releaseEndpoint}/latest` :
         `${releaseEndpoint}/tags/${requestedVersion}`;
 
+    console.log(releaseInfoUrl)
+
     const releaseInfoRequest = await fetch(releaseInfoUri);
     const releaseInfo = await releaseInfoRequest.json();
 

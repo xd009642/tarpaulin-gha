@@ -18,7 +18,6 @@ inputs:
   target:
     description: 'The target to install for cargo-tarpaulin'
     required: true
-    default: 'latest'
 
   args:
     required: false
