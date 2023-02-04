@@ -1,9 +1,6 @@
-name: 'rust-tarpaulin'
+name: 'cargo-tarpaulin'
 description: 'Gather Rust code coverage information with Tarpaulin'
-author: 'actions-rs team'
-branding:
-  icon: play-circle
-  color: black
+author: 'xd009642'
 
 runs:
   using: 'node16'
